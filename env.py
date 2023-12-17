@@ -6,7 +6,7 @@ import random
 
 import torch
 
-device = torch.device("cuda")
+device = torch.device("cpu")
 
 class RecEnv(Environment):
     def __init__(self, actions, model):
